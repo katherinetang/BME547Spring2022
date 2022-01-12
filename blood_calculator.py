@@ -20,5 +20,10 @@ def check_HDL(HDL_value):
         answer = "Borderline Low"
     else:
         answer = "Low"
+
+def HDL_driver():
+    HDL_value = accept_input("HDL")
+    classification = check_HDL(HDL_value)
+    
     
 interface();
