@@ -40,7 +40,7 @@ def check_LDL(LDL_value):
         answer = "Borderline high"
     elif 160<= LDL_value <=189:
         answer = "High"
-    else
+    else:
         answer = "Very high";
     return answer;
 
